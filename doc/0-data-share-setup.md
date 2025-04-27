@@ -66,7 +66,7 @@ WORKDIR=~/cadde_testbed
 　最後に、各種リポジトリを一斉にクローンする以下のスクリプトを実行する。
 ```bash
 cd ${WORKDIR}/cadde-data-share-scripts
-bash 0-set-dirs.sh
+bash set-dirs.sh
 ```
 
 　作業ディレクトリの状態は以下のようになる
