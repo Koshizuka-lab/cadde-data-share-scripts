@@ -90,7 +90,7 @@ CKAN APIキー: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJqdGkiOiJRVjJuU2dBTlRab19
 　
 　[3.3. 認可の設定](https://github.com/Koshizuka-lab/klab-connector-v4/blob/testbed/doc_testbed/provider.md#33-認可の設定)を参考に設定を行う。
 提供者認可サーバ管理サイト`http://cadde-authz-<シリアル番号>.<サイト名>.dataspace.internal:5080`にアクセスし、認可の設定を行う。
-例えば、CADDEユーザIDが`0001-koshizukalab`で共有したいファイルが`authorized.txt`の場合、提供者認可サーバ管理サイト`http://cadde-authz-0001.koshizukalab.dataspace.internal:5080`にアクセスし、認可対象とするリソースURL`http://data-management.seike.internal:8080/authorized.txt`を入力することで設定可能である。
+例えば、CADDEユーザIDが`0001-koshizukalab`で共有したいファイルが`authorized.txt`の場合、提供者認可サーバ管理サイト`http://cadde-authz-0001.koshizukalab.dataspace.internal:5080`にアクセスし、認可対象とするリソースURL`http://data-management.koshizukalab.internal:8080/authorized.txt`を入力することで設定可能である。
 
 
 
