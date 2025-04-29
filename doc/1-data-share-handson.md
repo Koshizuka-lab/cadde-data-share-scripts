@@ -61,7 +61,7 @@ CKAN内のリソースIDの例: 5eb34609-365d-4474-957d-3676f514dfb2
 また、その過程で提供者コネクタの接続設定ファイル(`${WORKDIR}/klab-connector-v4/src/provider/connector-main/swagger_server/configs/http.json`)に、提供者HTTPサーバのリソースURLの追加設定も自動的に行われる。
 
 ```bash
-cd ${WORKDIR}/cadde-data-share-scripts/1-reg-new-data
+cd ${WORKDIR}/cadde-data-share-scripts/reg-new-data
 bash 0-reg_data.sh
 ```
 
@@ -120,7 +120,7 @@ WebAppのURLは、`http://cadde-webapp-<シリアル番号>.<サイト名>.datas
 　以下、コマンドを実行することで来歴を確認可能である。
 
 ```bash
-cd ${WORKDIR}/cadde-data-share-scripts/1-reg-new-data
+cd ${WORKDIR}/cadde-data-share-scripts/reg-new-data
 bash 1-check_history_of_data.sh
 ```
 
