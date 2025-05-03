@@ -28,3 +28,10 @@ sudo systemctl restart docker
 sudo usermod -aG docker $USER
 newgrp docker
 ```
+
+### Private HTTPサーバに保存しているデータの権限について
+以下のようにして、プログラムにファイルの読み取り権限を与える必要がある。
+
+```
+chmod 664 myfile.txt
+```
